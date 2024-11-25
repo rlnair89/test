@@ -1,0 +1,29 @@
+.logo {
+    width: 6rem;
+    padding-top: 20px;
+}
+
+.parcelHeader mat-toolbar {
+    background-color: #fff;
+    border-bottom: 1px solid #00000021;
+    border-top: 1px solid #00000021;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.selected-menu-item {
+    color: #fff; /* Customize this color to whatever you'd like */
+    border-bottom: 3px solid #f07f12;
+  }
+
+  ::ng-deep .mdc-tab-indicator--active .mdc-tab-indicator .mdc-tab-indicator__content {
+    --mdc-tab-indicator-active-indicator-color: #f07f12 !important;
+    color:#fff;
+  }
+  ::ng-deep .mat-mdc-tab.mdc-tab--active:focus .mdc-tab-indicator__content--underline  {
+    border-color: #f07f12 !important;
+  }
+  
+::ng-deep .menu {
+    color: rgb(19, 18, 18) !important;
+}

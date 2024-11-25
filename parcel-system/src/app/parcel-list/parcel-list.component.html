@@ -1,0 +1,42 @@
+<div class="card">
+  <div class="card-body">
+    <h4>Parcel List</h4>
+    <mat-tab-group>
+      
+      <mat-tab *ngFor="let item of mainData" label="{{item.name}}"> 
+        <table mat-table [dataSource]="item.data" class="mat-elevation-z8 table-responsive w-100">
+           {{item}}
+          <ng-container matColumnDef="recipient">
+            <th mat-header-cell *matHeaderCellDef>Recipient Name</th>
+            <td mat-cell *matCellDef="let data">{{data.Receipient.Name}}</td>
+          </ng-container>
+          <ng-container matColumnDef="address">
+            <th mat-header-cell *matHeaderCellDef>Address</th>
+            <td mat-cell *matCellDef="let data">
+              {{data.Receipient.Address.Street}} {{data.Receipient.Address.HouseNumber}},
+              {{data.Receipient.Address.PostalCode}}, {{data.Receipient.Address.City}}
+            </td>
+          </ng-container>
+          <ng-container matColumnDef="weight">
+            <th mat-header-cell *matHeaderCellDef>Weight (kg)</th>
+            <td mat-cell *matCellDef="let data">{{data.Weight}}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="price">
+            <th mat-header-cell *matHeaderCellDef>Price</th>
+            <td mat-cell *matCellDef="let data">{{data.Value}}</td>
+          </ng-container>
+          <ng-container matColumnDef="department">
+            <th mat-header-cell *matHeaderCellDef>Department</th>
+            <td mat-cell *matCellDef="let data">{{data.name}}</td>
+          </ng-container>
+  
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+      </mat-tab>
+      
+    </mat-tab-group>
+      
+    </div>
+  </div>

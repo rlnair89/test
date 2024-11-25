@@ -1,0 +1,22 @@
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  mat-form-field {
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    mat-form-field, button {
+      width: 100%;
+      margin-top: 8px;
+    }
+  }
+
+  .addDepartment {
+    background-color: #f07f12;
+  }
+
+  .removeIcon {
+    color: #f07f12;    
+  }

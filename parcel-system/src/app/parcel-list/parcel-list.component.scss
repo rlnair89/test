@@ -1,0 +1,25 @@
+.container-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  h2, h4 {
+    color: #000;
+  }
+  
+  .mat-header-cell, .mat-cell {
+    padding: 16px;
+  }
+
+  ::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
+    border-color: 3px solid #f07f12;
+  }
+
+  ::ng-deep .mat-tab-label-active {
+    background-color: #f07f12; /* Active tab color */
+    color: white;
+  }

@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Center container */
+.container {
+    // max-width: 900px;
+  }
+  
+  /* Responsive and consistent padding */
+  .mat-card {
+    padding: 16px;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  /* Table styles */
+  .mat-header-cell, .mat-cell {
+    font-weight: 500;
+    padding: 8px;
+  }
+  
+  .mat-header-cell {
+    color: #5c6bc0; /* Light indigo for header */
+  }
+  
+  .mat-row:nth-child(odd) {
+    background-color: #f4f4f4; /* Light background for alternate rows */
+  }
+  
+  /* Hover effects */
+  .mat-row:hover {
+    background-color: #e3f2fd; /* Light blue on hover */
+  }
+  
+  

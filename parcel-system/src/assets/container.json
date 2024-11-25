@@ -1,0 +1,233 @@
+{
+	"Container": {
+		"Id": "68465468",
+		"ShippingDate": "2016-07-22T00:00:00+02:00",
+		"parcels": {
+			"Parcel": [
+				{
+					"Receipient": {
+						"Name": "Vinny Gankema",
+						"Address": {
+							"Street": "Marijkestraat",
+							"HouseNumber": "28",
+							"PostalCode": "4744AT",
+							"City": "Bosschenhoofd"
+						}
+					},
+					"Weight": "0.02",
+					"Value": "0.0"
+				},
+				{
+					"Receipient": {
+						"Name": "Soner Colen",
+						"Address": {
+							"Street": "Meester Willemstraat",
+							"HouseNumber": "111",
+							"PostalCode": "3036MN",
+							"City": "Rotterdam"
+						}
+					},
+					"Weight": "2.0",
+					"Value": "0.0"
+				},
+				{
+					"Receipient": {
+						"Name": "Ricardus Proper",
+						"Address": {
+							"Street": "Nieuwstraat",
+							"HouseNumber": "115",
+							"PostalCode": "4724BE",
+							"City": "Wouw"
+						}
+					},
+					"Weight": "100.0",
+					"Value": "2000.0"
+				},
+				{
+					"Receipient": {
+						"Name": "Alvaro ten Cate",
+						"Address": {
+							"Street": "Hoofdstraat",
+							"HouseNumber": "97",
+							"PostalCode": "9801BZ",
+							"City": "Zuidhorn"
+						}
+					},
+					"Weight": "11",
+					"Value": "500"
+				},
+				{
+					"Receipient": {
+						"Name": "Roland Lubben",
+						"Address": {
+							"Street": "Willem Bontekoestraat",
+							"HouseNumber": "43",
+							"PostalCode": "1212BZ",
+							"City": "Hilversum"
+						}
+					},
+					"Weight": "3.0",
+					"Value": "0"
+				},
+				{
+					"Receipient": {
+						"Name": "Ninon Spanjersberg",
+						"Address": {
+							"Street": "Overmaat",
+							"HouseNumber": "115",
+							"PostalCode": "7524PB",
+							"City": "Enschede"
+						}
+					},
+					"Weight": "10.0",
+					"Value": "1500"
+				},
+				{
+					"Receipient": {
+						"Name": "Ninon Spanjersberg",
+						"Address": {
+							"Street": "Overmaat",
+							"HouseNumber": "115",
+							"PostalCode": "7524PB",
+							"City": "Enschede"
+						}
+					},
+					"Weight": "10.0",
+					"Value": "1500"
+				},
+				{
+					"Receipient": {
+						"Name": "Montana Martinus",
+						"Address": {
+							"Street": "Salamander",
+							"HouseNumber": "147",
+							"PostalCode": "3831ZA",
+							"City": "Leusden"
+						}
+					},
+					"Weight": "0.7",
+					"Value": "0"
+				},
+				{
+					"Receipient": {
+						"Name": "Aisling Kruizenga",
+						"Address": {
+							"Street": "Oleanderlaan",
+							"HouseNumber": "17",
+							"PostalCode": "8024XC",
+							"City": "Zwolle"
+						}
+					},
+					"Weight": "0.9",
+					"Value": "1100"
+				},
+				{
+					"Receipient": {
+						"Name": "Bernadet Spijker",
+						"Address": {
+							"Street": "Paul Krugerstraat",
+							"HouseNumber": "1",
+							"PostalCode": "4443RC",
+							"City": "Nisse"
+						}
+					},
+					"Weight": "4.5",
+					"Value": "0"
+				},
+				{
+					"Receipient": {
+						"Name": "Collin Slaman",
+						"Address": {
+							"Street": "Schoolstraat",
+							"HouseNumber": "84",
+							"PostalCode": "9581GD",
+							"City": "Musselkanaal"
+						}
+					},
+					"Weight": "120",
+					"Value": "1500"
+				},
+				{
+					"Receipient": {
+						"Name": "Collin Slaman",
+						"Address": {
+							"Street": "Berkengaarde",
+							"HouseNumber": "176",
+							"PostalCode": "2742TS",
+							"City": "Waddinxveen"
+						}
+					},
+					"Weight": "130",
+					"Value": "2000"
+				},
+				{
+					"Receipient": {
+						"Name": "Ingetje Hauwert",
+						"Address": {
+							"Street": "Berkengaarde",
+							"HouseNumber": "176",
+							"PostalCode": "2742TS",
+							"City": "Waddinxveen"
+						}
+					},
+					"Weight": "0.3",
+					"Value": "0"
+				},
+				{
+					"Receipient": {
+						"Name": "Amber van der Schaar",
+						"Address": {
+							"Street": "Hoofdweg",
+							"HouseNumber": "68",
+							"PostalCode": "9765CN",
+							"City": "Paterswolde"
+						}
+					},
+					"Weight": "1",
+					"Value": "0"
+				},
+				{
+					"Receipient": {
+						"Name": "Willemtje Guldemond",
+						"Address": {
+							"Street": "Ringspoor",
+							"HouseNumber": "30",
+							"PostalCode": "2908BD",
+							"City": "Capelle aan den IJssel"
+						}
+					},
+					"Weight": "15",
+					"Value": "100"
+				},
+				{
+					"Receipient": {
+						"Name": "Willemtje Guldemond",
+						"Address": {
+							"Street": "Ringspoor",
+							"HouseNumber": "30",
+							"PostalCode": "2908BD",
+							"City": "Capelle aan den IJssel"
+						}
+					},
+					"Weight": "15",
+					"Value": "100"
+				},
+				{
+					"Receipient": {
+						"Name": "Zeki Soekhai",
+						"Address": {
+							"Street": "Duivenstraat",
+							"HouseNumber": "125",
+							"PostalCode": "4711KA",
+							"City": "Sint Willebrord"
+						}
+					},
+					"Weight": "0.4",
+					"Value": "0"
+				}
+			]
+		},
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xmlns:xsd": "http://www.w3.org/2001/XMLSchema"
+	}
+}
